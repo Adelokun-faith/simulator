@@ -1,0 +1,203 @@
+html{ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,600&display=swap');
+font-family: Heebo;
+background: #f8f8f8;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.l-container{
+    position: fixed;
+    background-color: #ffff;
+    height: 100%;
+    width: 30%;
+}
+.l-container h1{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    font-family: Arial;
+    font-size: 3rem;
+}
+
+.social-icon{
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    top: 20%;
+    left: 10%;
+}
+
+
+.box-1 h3{
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+.box-2 h3{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+.box-3 h3{
+    position: absolute;
+    left: 10%;
+    top: 28%;
+}
+.box-4 h3{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+.box-5 h3{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+.box-6 h3{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+.box-7 h3{
+    position: absolute;
+    left: 10%;
+    top: 72%;
+}
+.box-8 h3{
+    position: absolute;
+    left: 10%;
+    top: 83%;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8{
+    width: 40%;
+    height: 10%;
+    margin: 2% 2% 2% 2%;
+    cursor: pointer;
+    box-shadow: 0px 2px grey;
+    display: flex;
+    transition: all 10s;
+}
+
+footer{
+    width: 90%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+.box-1 i{
+    position: absolute;
+    top: 5%;
+}
+.box-2 i{
+    position: absolute;
+    top: 15%;
+}
+.box-3 i{
+    position: absolute;
+    top: 28%;
+}
+.box-4 i{
+    position: absolute;
+    top: 40%;
+}
+.box-5 i{
+    position: absolute;
+    top: 50%;
+}
+.box-6 i{
+    position: absolute;
+    top: 60%;
+}
+.box-7 i{
+    position: absolute;
+    top: 72%;
+}
+.box-8 i{
+    position: absolute;
+    top: 84%;
+}
+
+.box-1 a:hover,
+.box-2 a:hover,
+.box-3 a:hover,
+.box-4 a:hover,
+.box-5 a:hover,
+.box-6 a:hover,
+.box-7 a:hover,
+.box-8 a:hover{
+    color: red;
+}
+
+
+
+
+.r-container{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+}
+
+.pic{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 8%;
+    left: 60%;
+    top: 5%;
+}
+
+.r-container marquee{
+    position:absolute;
+    top: 15%;
+    left: 35%;
+    width: 60%;
+}
+
+.msg{
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    left: 28%;
+    top: 20%;
+}
+
+label{
+    width: 100px;
+    margin-left: 30%;
+    padding: 20%;
+}
+
+input[type=text] {
+    width: 90%;
+    padding: 20px;
+    margin-left: 50px;
+    box-shadow: border-box;
+    color: #333;
+}
+
+.btn{
+    width: 90%;
+    height: 5%;
+    color: white;
+    background-color: blue;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+select{
+    width: 95%;
+    padding: 20px;
+    margin-left: 50px;
+}
+

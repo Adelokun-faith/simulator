@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>VOTING SIMULATOR</title>
+    <link rel="stylesheet" href="../static/vote.css">
+</head>
+
+<body>
+    <div class="r-container">
+        <div class="pic">
+            <img src="../static/caot.png" height="100px" width="100px">
+        </div>
+
+        <marquee>Please kindly use the information on your voter's card</marquee>
+
+      <div class="msg">
+        <form action="{{ url_for('home') }}" method="post">
+
+            <label for="fname">Full Name</label><br>
+            <input type="text" id="fname" name="fname" type="text" placeholder="Enter your name here..." required><br><br>
+
+            <label for="fame">Voter'sNumber</label><br>
+            <input type="text" id="fame" name="fame" type="text" placeholder="Enter your voter's number..." required><br><br>
+
+            <label for="party">Party vote </label><br>
+                <select name="select" id="party">
+                    <option value="BA">Lagos</option>
+                    <option value="B.Sc">Ibadan</option>
+                    <option value="BA">Abia</option>
+                    <option value="B.Sc">Kwara</option>
+                    <option value="BA">Enugu</option>
+                    <option value="B.Sc">Borno</option>
+                </select><br><br>
+           
+              
+            <label for="lag">LGA
+            <select name="select" id="lag">
+                <option value="BA">Island East</option>
+                <option value="B.Sc">isin</option>
+            </select><br><br>
+            </label><br>
+
+            <label for="name">D.O.B</label><br>
+            <input type="text" id="name" name="name" type="text" placeholder="Enter your date of birth..." required><br><br>
+
+            <label for="hote">Party Vote
+            <select name="select" id="hote">
+                <option value="BA">APC</option>
+                <option value="B.Sc">PDP</option>
+                <option value="BA">LP</option>
+                <option value="B.Sc">NNPP</option>
+                <option value="BA">APGA</option>
+                <option value="B.Sc">ADC</option>
+            </select><br><br>
+        </label><br>
+          
+
+            <label for="fro">Vote For
+                <select name="select" id="fro">
+                <option value="BA">President</option>
+                <option value="B.Sc">Senator</option>
+                <option value="B.Sc">Governor</option>
+            </select><br><br>
+            </label><br>
+        
+            <input type="submit" class="btn" value="SUBMIT"></br>
+
+    </form>
+</div>
+      </div>
+
+
+    <div class="l-container">
+        <h1>E-Voting</h1>
+
+        <div class="social-icon">
+
+            <div class="box-1">
+                <a href="#" class="icon">
+                    <i class="fa-solid fa-house"></i>
+                    <h3>Overview</h3>
+                </a>
+            </div>
+
+            <div class="box-2">
+                <a href="#" class="icon">
+                    <i class="fa-solid fa-user"></i>
+                    <h3>Settings</h3>
+                </a>
+            </div>
+
+            <div class="box-3">
+                <a href="#" class="icon">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                    <h3>Voters</h3>
+                </a>
+            </div>
+
+            <div class="box-4">
+                <a href="./launch/lan.html" class="icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Launch</h3>
+                </a>
+            </div>
+
+            <div class="box-5">
+                <a href="#" class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Local Govt</h3>
+                </a>
+            </div>
+
+            <div class="box-6">
+                <a href="#" class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>State</h3>
+                </a>
+            </div>
+
+            <div class="box-7">
+                <a href="#" class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>State Date</h3>
+                </a>
+            </div>
+
+            <div class="box-8">
+                <a href="#" class="icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Total Vote</h3>
+                </a>
+            </div>
+
+            <footer>@ 2023 Jascube Technologies</footer>
+
+        </div>
+    </div>
+</body>
+</html>
